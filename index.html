@@ -11,23 +11,37 @@
 
 <body>
 
+    <h1>WELCOME!</h1>
+    <h2>What would you like to do?</h2>
+    <h3><a href="">Add a Charge</a></h3>
+    <h3><a href="">See Balances</a></h3>
+    <h3><a href="">View Upcoming Bills</a></h3>
+    <h3><a href="">Add a New Account</a></h3>
+
+
+    <nav>
+        <button class="login">Login</button>
+        <button class="sign-up">Sign Up</button>
+    </nav>
+
+
     <form>
-        <label type="text">Charge Type:</label><br>
-        <input placeholder="Describe Charge">
+        <label for="charge-type">Charge Type:</label><br>
+        <input type="text" placeholder="Describe Charge">
 
         <br>
 
-        <label type="number">Amount:</label><br>
+        <label for="amount">Amount:</label><br>
         <input type="number" placeholder="Amount">
 
         <br>
         Account Type Used:
         <br>
         <input type="radio">
-        <label type="">Checking</label><br>
+        <label for="checking">Checking</label><br>
 
         <input type="radio">
-        <label type="">Credit</label><br>
+        <label type="credit">Credit</label><br>
 
         <button type="submit">Submit</button>
     </form>
